@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="myFrame" layout-manager="GridLayoutManager" row-count="18" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="2" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="26" y="22" width="702" height="702"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="etched" title-justification="1">
+      <font/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="cdeac" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="efc40" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Dispatcher"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="23165" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4c900" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Client"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bd55a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4ed8c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Contract"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a66ca" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="f6277" binding="Create_DeletePane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="200"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="dec2b" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Classes"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="82ced" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="bevel-raised"/>
+                    <children>
+                      <component id="d9257" class="javax.swing.JButton" binding="DeleteButton">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Delete"/>
+                        </properties>
+                      </component>
+                      <component id="1eaa8" class="javax.swing.JButton" binding="CreateButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Create"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="17c31" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="bevel-raised"/>
+                    <children>
+                      <component id="8598" class="javax.swing.JComboBox" binding="Classes_ComboBox">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="7aff" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Requests"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e218f" class="javax.swing.JButton" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <component id="4851d" class="javax.swing.JComboBox" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="7a351" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value="Contract"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+        </children>
+      </grid>
+      <splitpane id="1420f">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="19d59" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Arrival_Station"/>
+            </properties>
+          </component>
+          <component id="13c75" class="javax.swing.JTextField" binding="Con_Arrival_StationTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="ce945">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3ff72" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Dispatch_Station"/>
+            </properties>
+          </component>
+          <component id="180b5" class="javax.swing.JTextField" binding="Con_Dispatch_StationTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="9d826">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="122"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f0400" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Date_of_Conclusion"/>
+            </properties>
+          </component>
+          <component id="cd214" class="javax.swing.JTextField" binding="Con_Date_of_ConclusionTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="757f4">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="eed40" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Delivery_Time"/>
+            </properties>
+          </component>
+          <component id="3169a" class="javax.swing.JTextField" binding="Con_Delivery_TimeTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="70b6d">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1f47c" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Phone_Number"/>
+            </properties>
+          </component>
+          <component id="741a3" class="javax.swing.JTextField" binding="Cli_Phone_NumberTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="ea011">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a47b6" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Address"/>
+            </properties>
+          </component>
+          <component id="d5e82" class="javax.swing.JTextField" binding="Cli_AddressTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="8a276">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e124" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Company_Name"/>
+            </properties>
+          </component>
+          <component id="7c962" class="javax.swing.JTextField" binding="Cli_Company_NameTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="9ba59">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3f7c8" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Work_Experience"/>
+            </properties>
+          </component>
+          <component id="4b1a1" class="javax.swing.JTextField" binding="D_Work_ExperienceTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="dc1d8">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="44536" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Full_Name"/>
+            </properties>
+          </component>
+          <component id="b797e" class="javax.swing.JTextField" binding="D_Full_NameTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="f6908">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cdfa0" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <labelFor value="c5ed8"/>
+              <text value="Phone_Number"/>
+            </properties>
+          </component>
+          <component id="6b853" class="javax.swing.JTextField" binding="D_Phone_NumberTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="8ea80">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ad450" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <labelFor value="8d35"/>
+              <text value="Address"/>
+            </properties>
+          </component>
+          <component id="8d35" class="javax.swing.JTextField" binding="D_AddressTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="89a30">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f7b84" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <labelFor value="392e5"/>
+              <text value="Company Name"/>
+            </properties>
+          </component>
+          <component id="392e5" class="javax.swing.JTextField" binding="D_Company_NameTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="709dc">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d6549" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Type_of_Cargo"/>
+            </properties>
+          </component>
+          <component id="c5ed8" class="javax.swing.JComboBox" binding="Con_Type_of_CargoComboBox">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Consumer"/>
+                <item value="Special"/>
+                <item value="Hazardous"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </splitpane>
+      <splitpane id="a6766">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <dividerLocation value="120"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d6930" class="javax.swing.JLabel">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="Weight"/>
+            </properties>
+          </component>
+          <component id="fa0a4" class="javax.swing.JTextField" binding="Con_WeightTextField">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
